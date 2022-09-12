@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Blood-Donation-Chart - LTIBB</title>
+    <meta property="og:title" content="Blood-Donation-Chart - LTIBB" />
+    <meta property="og:title" content="Donate-Blood - LTIBB" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Lexend;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.1;
+        color: var(--dl-color-grays-dark100);
+        background-color: var(--dl-color-grays-white100);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      data-tag="font"
+    />
+    <style>
+      ::placeholder{
+      color: #63667066;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./blood-donation-chart.css" rel="stylesheet" />
+
+      <div class="blood-donation-chart-container">
+        <main class="blood-donation-chart-main">
+          <div class="blood-donation-chart-hero section-container">
+            <div class="blood-donation-chart-max-width max-content-container">
+              <div class="blood-donation-chart-content-container">
+                <div class="blood-donation-chart-card">
+                  <h4 class="blood-donation-chart-text heading4">
+                    Blood Donation Chart
+                  </h4>
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    class="blood-donation-chart-icon"
+                  >
+                    <path
+                      d="M731.429 585.143h174.286c-6.857 7.429-11.429 11.429-12.571 12.571l-356 342.857c-6.857 6.857-16 10.286-25.143 10.286s-18.286-3.429-25.143-10.286l-356.571-344c-1.143-0.571-5.714-4.571-12-11.429h210.857c16.571 0 31.429-11.429 35.429-27.429l40-160.571 108.571 381.143c4.571 15.429 18.857 26.286 35.429 26.286v0c16 0 30.286-10.857 34.857-26.286l83.429-277.143 32 64c6.286 12 18.857 20 32.571 20zM1024 340.571c0 65.714-28.571 125.714-58.857 171.429h-210.857l-63.429-126.286c-6.286-13.143-21.143-21.143-35.429-20-15.429 1.714-28 11.429-32 26.286l-73.714 245.714-112-392c-4.571-15.429-18.857-26.286-36-26.286-16.571 0-30.857 11.429-34.857 27.429l-66.286 265.143h-241.714c-30.286-45.714-58.857-105.714-58.857-171.429 0-167.429 102.286-267.429 273.143-267.429 100 0 193.714 78.857 238.857 123.429 45.143-44.571 138.857-123.429 238.857-123.429 170.857 0 273.143 100 273.143 267.429z"
+                    ></path>
+                  </svg>
+                  <span class="blood-donation-chart-text01">
+                    <span>
+                      Blood types are very important when a blood transfusion is
+                      necessary. In a blood transfusion, a patient must receive
+                      a blood type compatible with his or her own blood type.
+                    </span>
+                    <br />
+                  </span>
+                  <span class="blood-donation-chart-text04">Donate Blood</span>
+                </div>
+                <span class="blood-donation-chart-text05">LTI Blood Bank</span>
+              </div>
+            </div>
+          </div>
+            
+      <div class="blood-donation-chart-section-one section-container">
+            <img
+              src="public/playground_assets/blood-donor-compatibilityv3-700h.jpg"
+              alt="image"
+              class="blood-donation-chart-image"
+            />
+          </div>
+          <div class="blood-donation-chart-section-four section-container">
+            <div
+              class="blood-donation-chart-max-width1 max-content-container"
+            ></div>
+            <div data-type="slider" class="blood-donation-chart-slider">
+              <div data-type="slide" class="blood-donation-chart-slide slide">
+                <div
+                  class="blood-donation-chart-max-width2 max-content-container"
+                >
+                  <div class="blood-donation-chart-left-side">
+                    <div class="blood-donation-chart-image-container">
+                      <img
+                        alt="image"
+                        src="public/playground_assets/blood%20donation%20logo-600w.png"
+                        class="blood-donation-chart-image01"
+                      />
+                      <img
+                        alt="image"
+                        src="public/playground_assets/vector%202%20%5B2%5D-700w.png"
+                        class="blood-donation-chart-image02"
+                      />
+                      <div class="blood-donation-chart-slider-controls">
+                        <div
+                          data-action="previousSlide"
+                          class="blood-donation-chart-go-left"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            class="blood-donation-chart-icon2"
+                          >
+                            <path
+                              d="M854 470v84h-520l238 240-60 60-342-342 342-342 60 60-238 240h520z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div
+                          data-action="nextSlide"
+                          class="blood-donation-chart-go-right"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            class="blood-donation-chart-icon4"
+                          >
+                            <path
+                              d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="blood-donation-chart-right-side">
+                    <span class="blood-donation-chart-testimonial">
+                      Blood donation is an extremely noble deed, yet there is a
+                      scarcity of regular donors across LTI. We focus on
+                      creating &amp; expanding a virtual army of blood donating
+                      volunteers who could be searched and contacted by
+                      family/care givers of a patient in times of need.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blood-donation-chart-section-five section-container">
+            <div class="blood-donation-chart-max-width3 max-content-container">
+              <div class="blood-donation-chart-cards-container">
+                <div class="blood-donation-chart-grid-card">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/vector%203-600h.png"
+                    class="blood-donation-chart-image03"
+                  />
+                  <span class="blood-donation-chart-text06">
+                    You may need a blood donation in the future.
+                  </span>
+                  <span class="blood-donation-chart-text07 content-Light">
+                    Blood donation is considered as the gift of life as there is
+                    no substitute present for human blood. At every 2 second
+                    someone somewhere needs the blood. Every day more than
+                    38,000 blood donations are needed.
+                  </span>
+                </div>
+                <div class="blood-donation-chart-grid-card1">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/vector%203%20%5B1%5D-200h.png"
+                    class="blood-donation-chart-image04"
+                  />
+                  <span class="blood-donation-chart-text08">
+                    Safe blood saves lives
+                  </span>
+                  <span class="blood-donation-chart-text09">
+                    Blood is needed by women with complications during pregnancy
+                    and childbirth, children with severe anaemia, often
+                    resulting from malaria or malnutrition, accident victims and
+                    surgical and cancer patients.
+                  </span>
+                </div>
+                <div class="blood-donation-chart-grid-card2">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/vector%203%20%5B2%5D-200h.png"
+                    class="blood-donation-chart-image05"
+                  />
+                  <span class="blood-donation-chart-text10">
+                    Every donation makes a difference.
+                  </span>
+                  <span class="blood-donation-chart-text11 content-Light">
+                    Blood donation is considered as the gift of life as there is
+                    no substitute present for human blood. At every 2 second
+                    someone somewhere needs the blood. Every day more than
+                    38,000 blood donations are needed.
+                  </span>
+                </div>
+                <div class="blood-donation-chart-grid-card3">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/vector%203%20%5B3%5D-200h.png"
+                    class="blood-donation-chart-image06"
+                  />
+                  <span class="blood-donation-chart-text12">
+                    You may need a blood donation in the future.
+                  </span>
+                  <span class="blood-donation-chart-text13 content-Light">
+                    Blood donation is considered as the gift of life as there is
+                    no substitute present for human blood. At every 2 second
+                    someone somewhere needs the blood. Every day more than
+                    38,000 blood donations are needed.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blood-donation-chart-section-six section-container">
+            <div
+              class="blood-donation-chart-max-width4 max-content-container"
+            ></div>
+            <div class="blood-donation-chart-section-six1 section-container">
+              <div
+                class="blood-donation-chart-max-width5 max-content-container"
+              >
+                <div class="blood-donation-chart-content-container1">
+                  <h1 class="blood-donation-chart-text14">
+                    <span class="blood-donation-chart-text15">
+                      Start Registering for donating blood 
+                    </span>
+                    <br />
+                    <br />
+                  </h1>
+                  <div class="blood-donation-chart-input-container">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/stars-600h.png"
+                      class="blood-donation-chart-image07"
+                    />
+                    <img
+                      alt="image"
+                      src="public/playground_assets/vector%203-600h.png"
+                      class="blood-donation-chart-image08"
+                    />
+                  </div>
+                </div>
+                <div class="blood-donation-chart-container1">
+                  <div class="blood-donation-chart-image-container1">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/blood%20donation%20logo-600w.png"
+                      class="blood-donation-chart-image09"
+                    />
+                    <img
+                      alt="image"
+                      src="public/playground_assets/vector%203%20%5B1%5D-200h.png"
+                      class="blood-donation-chart-image10"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button class="blood-donation-chart-button button-primary button">
+                Get started
+              </button>
+              <span class="blood-donation-chart-text18">
+                It improves your health.
+              </span>
+            </div>
+          </div>
+            <div>
+            
+<div style="color: blue">
+
+<center>
+<h1>Types of Blood Donations</h1><br>
+
+<h3>Click on the menu for more details</h3><br>
+
+<button onclick="myFunctionplasma()">Plasma Donation</button>
+<button onclick="myFunctionplatelet()">Platelet Donation</button>
+<button onclick="myFunctionwhole()">Whole Blood Donation</button>
+<p id="demo"></p>
+
+<script>
+function myFunctionplasma() {
+  document.getElementById("demo").innerHTML = "<br><br><h4>During an AB Elite donation, you give plasma, a part of your blood used to treat patients in emergency situations. AB plasma can be given to anyone regardless of their blood type. Plasma is collected through an automated process that separates plasma from other blood components, then safely and comfortably returns your red blood cells and platelets to you. AB Elite maximizes your donation and takes just a few minutes longer than donating blood. <br><br>Who it helps: AB Plasma is used in emergency and trauma situations to help stop bleeding. <br><br>Time it takes: About 1 hour and 15 minutes <br><br>Ideal blood types: AB positive, AB negative <br><br>Donation frequency: Every 28 days, up to 13 times/year</h4>";
+
+}
+</script>
+
+<script>
+function myFunctionplatelet() {
+
+  document.getElementById("demo").innerHTML = "<br><br><h4>Platelets are tiny cells in your blood that form clots and stop bleeding. Platelets are most often used by cancer patients and others facing life-threatening illnesses and injuries. <br><br>In a platelet donation, an apheresis machine collects your platelets along with some plasma, returning your red cells and most of the plasma back to you. A single donation of platelets can yield several transfusable units, whereas it takes about five whole blood donations to make up a single transfusable unit of platelets. <br><br> Who it helps: Platelets are a vital element of cancer treatments and organ transplant procedures, as well as other surgical procedures. Time it takes: About 2.5-3 hours <br><br>Ideal blood types: A positive, A negative, B positive, O positive, AB positive and AB negative <br><br>Donation frequency: Every 7 days, up to 24 times/year</h4>";
+}
+</script>
+
+<script>
+function myFunctionwhole() {
+
+  document.getElementById("demo").innerHTML = "<br><br><h4>Whole blood is the most flexible type of donation. It can be transfused in its original form, or used to help multiple people when separated into its specific components of red cells, plasma and platelets.<br><br> Who it helps: Whole blood is frequently given to trauma patients and people undergoing surgery. <br><br>Time it takes: About 1 hour <br><br>Ideal blood types: All blood types<br><br> Donation frequency: Every 56 days, up to 6 times a year</h4>";
+}
+</script>
+</center>
+</div>
+            </div>
+        </main>
+        
+        <footer class="blood-donation-chart-footer section-container">
+          <div class="blood-donation-chart-max-width6 max-content-container">
+            <div class="blood-donation-chart-container2">
+              <img
+                alt="image"
+                src="public/playground_assets/blood%20donation%20logo%20%5B1%5D-500h.png"
+                class="blood-donation-chart-image11"
+              />
+              <span class="blood-donation-chart-text19">
+                <br />
+                <span>
+                  Blood Donation Prerequisites is a thing that is required as a
+                  prior condition for something else to happen or exist.A donor
+                  is someone who gives a part of their body or some of their
+                  blood to be used by doctors to help a person who is ill
+                </span>
+              </span>
+            </div>
+            <div class="blood-donation-chart-container3">
+              <div class="blood-donation-chart-links"></div>
+              <img
+                alt="image"
+                src="public/playground_assets/clipart1033863-600w.png"
+                class="blood-donation-chart-image12"
+              />
+            </div>
+            <img
+              alt="image"
+              src="public/playground_assets/blood%20donation%20logo%20%5B1%5D-500h.png"
+              class="blood-donation-chart-image13"
+            />
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script>
+      window.onload = () => {
+        const runAllScripts = () => {
+          initializeAllSliders();
+        };
+
+        const listenForUrlChanges = () => {
+          let url = location.href;
+          document.body.addEventListener(
+            "click",
+            () => {
+              requestAnimationFrame(() => {
+                if (url !== location.href) {
+                  runAllScripts();
+                  url = location.href;
+                }
+              });
+            },
+            true
+          );
+        };
+
+        const initializeAllSliders = () => {
+          const allSliders = document.querySelectorAll('[data-type="slider"]');
+          allSliders.forEach((carrousel) => {
+            initializeSlider(carrousel);
+          });
+        };
+
+        const initializeSlider = (carrousel) => {
+          let currentSlide = 0;
+
+          const slides = carrousel.querySelectorAll('[data-type="slide"]');
+          const nextSlideBtns = carrousel.querySelectorAll(
+            '[data-action="nextSlide"]'
+          );
+          const previousSlideBtns = carrousel.querySelectorAll(
+            '[data-action="previousSlide"]'
+          );
+
+          const changeSlide = (slideIndex, action) => {
+            currentSlide = slideIndex;
+
+            switch (action) {
+              case "next":
+                slideIndex === slides.length - 1
+                  ? (currentSlide = 0)
+                  : currentSlide++;
+                break;
+              case "previous":
+                slideIndex === 0
+                  ? (currentSlide = slides.length - 1)
+                  : currentSlide--;
+            }
+
+            carrousel.style.transform = `translateX(${-100 * currentSlide}%)`;
+          };
+
+          previousSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "previous")
+            );
+          });
+
+          nextSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "next")
+            );
+          });
+        };
+
+        runAllScripts();
+      };
+    </script>
+      
+      
+  </body>
+</html>
+

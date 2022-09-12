@@ -1,0 +1,681 @@
+.blood-donation-facts-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-backgrounds-gray);
+}
+.blood-donation-facts-main {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: #f4fdfd;
+  border-width: 1px;
+  flex-direction: column;
+}
+.blood-donation-facts-hero {
+  height: 389px;
+}
+.blood-donation-facts-max-width {
+  align-items: stretch;
+}
+.blood-donation-facts-content-container {
+  flex: 1;
+  height: 304px;
+  display: flex;
+  position: relative;
+  min-width: 50%;
+  align-items: center;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.blood-donation-facts-card {
+  top: -44px;
+  flex: 0 0 auto;
+  left: 416px;
+  width: 25%;
+  height: 352px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  max-width: 285px;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.blood-donation-facts-icon {
+  fill: #ca1313;
+  width: 24px;
+  height: 24px;
+}
+.blood-donation-facts-text01 {
+  color: var(--dl-color-grays-gray100);
+  text-align: center;
+  line-height: 1.5;
+}
+.blood-donation-facts-text02 {
+  left: 78px;
+  color: var(--dl-color-backgrounds-primary);
+  bottom: 4px;
+  cursor: pointer;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 600;
+  line-height: 1.75;
+}
+.blood-donation-facts-text02:hover {
+  text-decoration: underline;
+}
+.blood-donation-facts-text03 {
+  top: -53px;
+  left: 9px;
+  color: #d81313;
+  position: absolute;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+.blood-donation-facts-section-five {
+  height: 832px;
+  position: relative;
+  background-color: #f2f4f7;
+}
+.blood-donation-facts-max-width1 {
+  width: 1190px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.blood-donation-facts-cards-container {
+  width: 100%;
+  height: 527px;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  grid-template-columns: 1fr 1fr;
+}
+.blood-donation-facts-grid-card {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text05 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card01 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image01 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text06 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card02 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image02 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text07 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  border-style: hidden;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image03 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text13 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-text19 {
+  top: 447px;
+  left: 448px;
+  color: #dc1616;
+  position: absolute;
+}
+.blood-donation-facts-text22 {
+  color: rgb(220, 22, 22);
+}
+.blood-donation-facts-section-five1 {
+  width: 100%;
+  height: 805px;
+  position: relative;
+  border-color: #e5f2f3;
+  border-width: 1px;
+}
+.blood-donation-facts-max-width2 {
+  flex-direction: column;
+  justify-content: center;
+}
+.blood-donation-facts-cards-container1 {
+  width: 100%;
+  height: 527px;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  grid-template-columns: 1fr 1fr;
+}
+.blood-donation-facts-grid-card04 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image04 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text25 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card05 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image05 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text26 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card06 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image06 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text27 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card07 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image07 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text28 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-text29 {
+  color: #d81414;
+}
+.blood-donation-facts-section-five2 {
+  height: 740px;
+  position: relative;
+  border-color: #fdf7f7;
+  border-width: 1px;
+}
+.blood-donation-facts-max-width3 {
+  flex-direction: column;
+  justify-content: center;
+}
+.blood-donation-facts-cards-container2 {
+  width: 100%;
+  height: 527px;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  grid-template-columns: 1fr 1fr;
+}
+.blood-donation-facts-grid-card08 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+}
+.blood-donation-facts-image08 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text33 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card09 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+}
+.blood-donation-facts-image09 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text34 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card10 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image10 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text35 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-grid-card11 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  align-items: flex-start;
+  border-color: var(--dl-color-grays-dark100);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-image11 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.blood-donation-facts-text36 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.blood-donation-facts-section-six {
+  height: 588px;
+  position: relative;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-bottom: 0px;
+  background-color: var(--dl-color-backgrounds-primary);
+}
+.blood-donation-facts-max-width4 {
+  align-items: stretch;
+}
+.blood-donation-facts-content-container1 {
+  flex: 1;
+  display: flex;
+  position: relative;
+  min-width: 60%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.blood-donation-facts-text37 {
+  left: 48px;
+  bottom: -134px;
+  position: absolute;
+  font-size: 42px;
+}
+.blood-donation-facts-input-container {
+  flex: 0 0 auto;
+  width: 1152px;
+  display: flex;
+  position: relative;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.blood-donation-facts-image12 {
+  width: 100px;
+  object-fit: cover;
+}
+.blood-donation-facts-image13 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100px;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.blood-donation-facts-container1 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.blood-donation-facts-image-container {
+  flex: 1;
+  width: 200px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.blood-donation-facts-image14 {
+  left: -56px;
+  width: 278px;
+  bottom: -335px;
+  height: 288px;
+  position: absolute;
+  object-fit: cover;
+}
+.blood-donation-facts-image15 {
+  width: 100px;
+  object-fit: cover;
+}
+.blood-donation-facts-button {
+  top: 394px;
+  left: 432px;
+  display: flex;
+  position: absolute;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: center;
+  line-height: 1;
+  padding-top: 20px;
+  white-space: nowrap;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 20px;
+  justify-content: center;
+  background-color: var(--dl-color-grays-dark100);
+}
+.blood-donation-facts-button:hover {
+  background-color: var(--dl-color-grays-white100);
+}
+.blood-donation-facts-text41 {
+  top: 296px;
+  left: 172px;
+  color: #2a32cb;
+  position: absolute;
+  font-size: 30px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 700;
+}
+.blood-donation-facts-footer {
+  height: 560px;
+  border-color: rgba(33, 33, 33, 0.1);
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.blood-donation-facts-max-width5 {
+  justify-content: space-between;
+}
+.blood-donation-facts-container2 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.blood-donation-facts-image16 {
+  width: 256px;
+  height: 157px;
+  object-fit: cover;
+}
+.blood-donation-facts-text42 {
+  color: var(--dl-color-grays-gray100);
+  max-width: 350px;
+  margin-bottom: 60px;
+}
+.blood-donation-facts-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: space-between;
+  flex-direction: column;
+}
+.blood-donation-facts-links {
+  flex: 0 0 auto;
+  width: 40%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.blood-donation-facts-image17 {
+  top: -188px;
+  left: -18px;
+  width: 524px;
+  position: absolute;
+  object-fit: cover;
+}
+.blood-donation-facts-image18 {
+  width: 100px;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .blood-donation-facts-max-width {
+    flex-direction: column;
+  }
+  .blood-donation-facts-content-container {
+    margin-bottom: 42px;
+    padding-right: 0px;
+  }
+  .blood-donation-facts-max-width4 {
+    flex-direction: column;
+  }
+  .blood-donation-facts-text37 {
+    width: 100%;
+  }
+  .blood-donation-facts-text38 {
+    width: 100%;
+  }
+  .blood-donation-facts-max-width5 {
+    flex-direction: column-reverse;
+  }
+  .blood-donation-facts-container2 {
+    width: 100%;
+  }
+  .blood-donation-facts-links {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .blood-donation-facts-card {
+    width: 50%;
+  }
+  .blood-donation-facts-cards-container {
+    grid-template-columns: 1fr;
+  }
+  .blood-donation-facts-cards-container1 {
+    grid-template-columns: 1fr;
+  }
+  .blood-donation-facts-cards-container2 {
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width: 479px) {
+  .blood-donation-facts-card {
+    width: 100%;
+  }
+  .blood-donation-facts-input-container {
+    flex-direction: column;
+  }
+  .blood-donation-facts-links {
+    flex-wrap: wrap;
+  }
+}
