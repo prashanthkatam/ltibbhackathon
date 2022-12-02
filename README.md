@@ -92,7 +92,7 @@ vi find-donor.php
 vi config.php
 vi search.php
 vi signup.php
-
+vi deletedata.php
 
 Add admin table name in indexadmin.php
 
