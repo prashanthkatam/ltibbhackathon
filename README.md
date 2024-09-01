@@ -132,11 +132,11 @@ sudo git add .
 
 sudo git commit -m ""
 
-git remote set-url origin https://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@github.com/prashanthkatam/ltibloodbank.git
+git remote set-url origin https://token@github.com/prashanthkatam/ltibloodbank.git
 
-git remote set-url origin https://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@github.com/prashanthkatam/Hackathon.git
+git remote set-url origin https://@github.com/prashanthkatam/Hackathon.git
 
-git remote set-url origin https://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@github.com/prashanthkatam/Hackathon.git
+git remote set-url origin https://@github.com/prashanthkatam/Hackathon.git
 
 sudo git push origin master
 
@@ -192,36 +192,25 @@ sudo wget https://s3.amazonaws.com/amazoncloudwatch-agent/ubuntu/amd64/latest/am
 
 sudo dpkg -i -E ./amazon-cloudwatch-agent.deb
 
-7.	Create configuration 
+""
+#Updated method to install cloud watch agent to push apache logs to cloud watch
 
-vi /opt/aws/amazon-cloudwatch-agent/bin/config.json
+Steps to install and configure cloudwatch agent 
 
-{
-     "agent": {
-         "run_as_user": "root"
-     },    
-     "logs": {
-         "logs_collected": {
-             "files": {
-                 "collect_list": [
-                     {
-                         "file_path": "/var/log/apache2/access.log",
-                         "log_group_name": "myapache-error-log",
-                         "log_stream_name": "{instance_id}"
-                     }
-                 ]
-             }
-         }
-     }
-}
+1. wget https://s3.amazonaws.com/amazoncloudw...
+2. sudo dpkg -i -E ./amazon-cloudwatch-agent.deb
+3. sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+4. sudo apt-get update -y
+5. sudo apt-get install collectd
+6. sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
+7. sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a status
 
-8.	Command to Start CloudWatch Service
+NOTES:
+1. Remember to create a role in IAM with CloudWatchAgentAdminPolicy and assign that role to EC2 Instance.
+2. While configuration of cloud watch agent follow youtube video: https://www.youtube.com/watch?v=mIVluHNNioE
 
-sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
-
-9.	Now Navigate the AWS Cosole and go to Cloud Watch you can see the log group as mentioned in the config.json and the logs will be flown as the path given in config.json
-
-[NOTE: Check for the config.json syntax for the brackets, Create and assign CloudWatchAgentServerPolicy to Instance]
+""
+         
 
 --------------------------------------------------------------------------------------------------------------------
 
