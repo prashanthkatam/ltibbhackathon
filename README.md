@@ -204,6 +204,12 @@ Steps to install and configure cloudwatch agent
 6. sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
 7. sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a status
 
+Other Commands:
+
+ systemctl status amazon-cloudwatch-agent
+ systemctl stop amazon-cloudwatch-agent
+
+
 NOTES:
 1. Remember to create a role in IAM with CloudWatchAgentAdminPolicy and assign that role to EC2 Instance.
 2. While configuration of cloud watch agent follow youtube video: https://www.youtube.com/watch?v=mIVluHNNioE
