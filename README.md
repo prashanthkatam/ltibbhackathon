@@ -192,8 +192,7 @@ sudo wget https://s3.amazonaws.com/amazoncloudwatch-agent/ubuntu/amd64/latest/am
 
 sudo dpkg -i -E ./amazon-cloudwatch-agent.deb
 
-""
-#Updated method to install cloud watch agent to push apache logs to cloud watch
+# Updated method to install cloud watch agent to push apache logs to cloud watch
 
 Steps to install and configure cloudwatch agent 
 
