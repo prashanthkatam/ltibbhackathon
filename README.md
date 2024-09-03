@@ -231,3 +231,55 @@ show columns from donors;
     Hi this is webpage after making changes in GitHub Repo and CI CD Made visible here
   </body>
 </html>
+
+================================================================================================
+
+# AWS User Data to Provision Instance with all the required packages for this project
+
+#!/bin/bash
+# Update package lists
+apt-get update -y
+
+# Install Apache2
+apt-get install apache2 -y
+
+# Install PHP and required modules
+apt-get install php libapache2-mod-php php-mysql php-curl php-gd php-json php-zip php-mbstring -y
+
+# Restart Apache2 service
+systemctl restart apache2
+
+# Install MySQL server
+apt-get install mysql-server -y
+
+# Enable Apache2 and MySQL to start on boot
+systemctl enable apache2
+systemctl enable MySQL
+
+
+==============================================================================
+
+# Shell Script to install the required software for this project
+
+#!/bin/bash
+
+# Update package lists
+sudo apt-get update -y
+
+# Install Apache2
+sudo apt-get install apache2 -y
+
+# Install PHP and required modules
+sudo apt-get install php libapache2-mod-php php-mysql php-curl php-gd php-json php-zip php-mbstring -y
+
+# Restart Apache2 service
+sudo systemctl restart apache2
+
+# Install MySQL server
+sudo apt-get install mysql-server -y
+
+echo "Installation completed successfully."
+
+=============================================================
+
+# End
